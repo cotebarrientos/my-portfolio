@@ -6,25 +6,31 @@ Nav} from 'react-bootstrap'
 
 const Navbar = () => {
     return (
-        <Appbar className="background-color mb-4 shadow" sticky="top">
+        <Appbar collapseOnSelect
+            expand="lg"
+            className="background-color mb-4 navbar-dark shadow" 
+            sticky="top">
             <Container fluid>
             <Appbar.Brand 
             className="font-exo text-uppercase">
                 <Link to="homeSection">Maria Barrientos</Link>
             </Appbar.Brand>
-            <Nav className="ms-auto text-uppercase font-outfit">
-                <Nav.Link>
-                    <Link
-                    activeClass="active"
-                    to="homeSection" 
-                    spy={true} 
-                    smooth={true} 
-                    duration={500}>Home</Link>
-                </Nav.Link>
-                <Nav.Link  href="#">About</Nav.Link>
-                <Nav.Link href="#">My Portfolio</Nav.Link>
-                <Nav.Link  href="#">Contact</Nav.Link>
-            </Nav>
+            <Appbar.Toggle aria-controls="responsive-navbar-nav" />
+            <Appbar.Collapse id="responsive-navbar-nav">
+                <Nav className="ms-auto text-uppercase font-outfit">
+                    <Nav.Link className="ps-3 pe-3">
+                        <Link
+                        activeClass="active"
+                        to="homeSection" 
+                        spy={true} 
+                        smooth={true} 
+                        duration={500}>Home</Link>
+                    </Nav.Link>
+                    <Nav.Link  href="#" className="ps-3 pe-3">About</Nav.Link>
+                    <Nav.Link href="#" className="ps-3 pe-3">My Portfolio</Nav.Link>
+                    <Nav.Link  href="#" className="ps-3 pe-3">Contact</Nav.Link>
+                </Nav>
+            </Appbar.Collapse>
             </Container>
         </Appbar>
     )

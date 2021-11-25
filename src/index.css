@@ -27,6 +27,7 @@ html,body {
 
 .background-color .navbar-brand {
   color: #FAFAFA;
+  font-size: 25px;
   letter-spacing: 0.09em; 
 }
 
@@ -44,4 +45,15 @@ html,body {
 .background-color .navbar-nav .nav-link:active{
   color: #FFFFFF;
   background-color: #94618E;
+}
+
+
+/* Media Queries */
+
+@media screen and (max-width: 350px) {
+  .background-color .navbar-brand {
+    color: #FAFAFA;
+    font-size: 20px;
+    letter-spacing: 0.09em; 
+  }
 }
