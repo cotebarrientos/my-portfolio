@@ -40,13 +40,13 @@ html,body {
   color: #FAFAFA;
 } 
 
-.background-color .navbar-nav .nav-link:hover,
-.background-color .navbar-nav .nav-link:focus,
-.background-color .navbar-nav .nav-link:active{
+.background-color .navbar-nav .nav-item .nav-link.active,
+.background-color .navbar-nav .nav-item .nav-link:hover,
+.background-color .navbar-nav .nav-item .nav-link:focus,
+.background-color .navbar-nav .nav-item .nav-link:active{
   color: #FFFFFF;
   background-color: #94618E;
 }
-
 
 /* Media Queries */
 

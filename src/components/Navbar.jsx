@@ -1,14 +1,13 @@
 import React from 'react'
 import { Link } from 'react-scroll'
 import { Navbar as Appbar,
-Container,
-Nav} from 'react-bootstrap'
+Container} from 'react-bootstrap'
 
 const Navbar = () => {
     return (
         <Appbar collapseOnSelect
             expand="lg"
-            className="background-color mb-4 navbar-dark shadow" 
+            className="background-color navbar-dark shadow" 
             sticky="top">
             <Container fluid>
             <Appbar.Brand 
@@ -17,19 +16,44 @@ const Navbar = () => {
             </Appbar.Brand>
             <Appbar.Toggle aria-controls="responsive-navbar-nav" />
             <Appbar.Collapse id="responsive-navbar-nav">
-                <Nav className="ms-auto text-uppercase font-outfit">
-                    <Nav.Link className="ps-3 pe-3">
+                <ul className="navbar-nav ms-auto text-uppercase font-outfit">
+                    <li className="nav-item ps-3 pe-3">
                         <Link
+                        className="nav-link"
                         activeClass="active"
                         to="homeSection" 
                         spy={true} 
                         smooth={true} 
                         duration={500}>Home</Link>
-                    </Nav.Link>
-                    <Nav.Link  href="#" className="ps-3 pe-3">About</Nav.Link>
-                    <Nav.Link href="#" className="ps-3 pe-3">My Portfolio</Nav.Link>
-                    <Nav.Link  href="#" className="ps-3 pe-3">Contact</Nav.Link>
-                </Nav>
+                    </li>
+                    <li className="nav-item ps-3 pe-3">
+                        <Link
+                        className="nav-link"
+                        activeClass="active"
+                        to="#" 
+                        spy={true} 
+                        smooth={true} 
+                        duration={500}>About</Link>
+                    </li>
+                    <li className="nav-item ps-3 pe-3">
+                        <Link
+                        className="nav-link"
+                        activeClass="active"
+                        to="#" 
+                        spy={true} 
+                        smooth={true} 
+                        duration={500}>My Portfolio</Link>
+                    </li>
+                    <li className="nav-item ps-3 pe-3">
+                        <Link
+                        className="nav-link"
+                        activeClass="active"
+                        to="#" 
+                        spy={true} 
+                        smooth={true} 
+                        duration={500}>Contact</Link>
+                    </li>
+                </ul>
             </Appbar.Collapse>
             </Container>
         </Appbar>
