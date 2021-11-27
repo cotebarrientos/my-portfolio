@@ -18,7 +18,8 @@ const Home = () => {
                 <Col xs={12} lg={4} 
                     className="mx-auto my-auto">
                     <Image 
-                        src={github_pic} 
+                        src={github_pic}
+                        alt="My GitHub pic" 
                         className="my-pic d-block mx-auto m-4" 
                         fluid 
                     />

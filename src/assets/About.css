@@ -1,5 +1,5 @@
 #aboutSection {
-    background-color: #eee;
+    background-color: #211522;
     min-height: 200px;
 }
 
@@ -7,6 +7,18 @@
     width: 60%;
 }
 
+#aboutSection h1 {
+    font-size: 45px;
+    letter-spacing: 2px;
+    color: #f0ad4e;
+}
+
 #aboutSection p {
     text-align: justify;
+    font-size: 18px;
+}
+
+.about-me-pic {
+    border-radius: 10%;
+    border: 5px solid rgba(95, 86, 97, 0.6);
 }
