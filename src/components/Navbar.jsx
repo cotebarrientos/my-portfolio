@@ -30,7 +30,7 @@ const Navbar = () => {
                         <Link
                         className="nav-link"
                         activeClass="active"
-                        to="#" 
+                        to="aboutSection" 
                         spy={true} 
                         smooth={true} 
                         duration={500}>About</Link>

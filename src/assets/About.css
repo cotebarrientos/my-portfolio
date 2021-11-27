@@ -1,0 +1,12 @@
+#aboutSection {
+    background-color: #eee;
+    min-height: 200px;
+}
+
+#aboutSection hr {
+    width: 60%;
+}
+
+#aboutSection p {
+    text-align: justify;
+}

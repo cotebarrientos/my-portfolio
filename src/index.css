@@ -45,6 +45,7 @@ html,body {
 .background-color .navbar-nav .nav-item .nav-link:active{
   color: #FFFFFF;
   background-color: #94618E;
+  border-radius: .3rem;
 }
 
 /* Media Queries */
