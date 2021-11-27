@@ -17,7 +17,7 @@ const Navbar = () => {
             <Appbar.Toggle aria-controls="responsive-navbar-nav" />
             <Appbar.Collapse id="responsive-navbar-nav">
                 <ul className="navbar-nav ms-auto text-uppercase font-outfit">
-                    <li className="nav-item ps-3 pe-3">
+                    <li className="nav-item ps-2 pe-2">
                         <Link
                         className="nav-link"
                         activeClass="active"
@@ -26,7 +26,7 @@ const Navbar = () => {
                         smooth={true} 
                         duration={500}>Home</Link>
                     </li>
-                    <li className="nav-item ps-3 pe-3">
+                    <li className="nav-item ps-2 pe-2">
                         <Link
                         className="nav-link"
                         activeClass="active"
@@ -35,7 +35,7 @@ const Navbar = () => {
                         smooth={true} 
                         duration={500}>About</Link>
                     </li>
-                    <li className="nav-item ps-3 pe-3">
+                    <li className="nav-item ps-2 pe-2">
                         <Link
                         className="nav-link"
                         activeClass="active"
@@ -44,7 +44,7 @@ const Navbar = () => {
                         smooth={true} 
                         duration={500}>My Portfolio</Link>
                     </li>
-                    <li className="nav-item ps-3 pe-3">
+                    <li className="nav-item ps-2 pe-2">
                         <Link
                         className="nav-link"
                         activeClass="active"

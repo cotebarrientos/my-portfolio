@@ -1,0 +1,63 @@
+/* Cover image */
+
+.welcome-img-container {
+    height: 100vh;
+    min-height: 600px;
+
+    background: url("../img/mainCoverImg.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+/* Jumbotron */
+
+.jumbotron {
+    background-color: rgba(34, 0, 40, 0.6);
+    color: #FFFFFF;
+}
+
+.jumbotron h1 {
+    font-size: 45px;
+}
+
+.jumbotron h2 {
+    background-color: #970B67;
+    font-size: 25px;
+}
+
+.jumbotron p {
+    font-size: 20px;
+}
+
+/* My picture */
+
+.my-pic {
+    width: 300px;
+    height: auto;
+    border-radius: 50%;
+    border: 5px solid rgba(34, 0, 40, 0.6);
+}
+
+/* Social Media Icons */
+
+#my-social-media-icons {
+    font-size: 40px;
+}
+
+#my-social-media-icons a {
+    color: #F8EEE7;
+}
+
+#my-social-media-icons a:hover,
+#my-social-media-icons a:focus,
+#my-social-media-icons a:active {
+    color: #f0ad4e;
+}
