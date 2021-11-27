@@ -22,6 +22,7 @@
 .jumbotron {
     background-color: rgba(34, 0, 40, 0.6);
     color: #FFFFFF;
+    border-radius: .3rem;
 }
 
 .jumbotron h1 {
@@ -60,4 +61,62 @@
 #my-social-media-icons a:focus,
 #my-social-media-icons a:active {
     color: #f0ad4e;
+}
+
+/* Media Queries */
+
+@media (max-width: 950px) and (orientation: landscape) {
+    .jumbotron {
+        background-color: rgba(34, 0, 40, 0.6);
+        color: #FFFFFF;
+        border-radius: .3rem;
+    }
+    
+    .jumbotron h1 {
+        font-size: 35px;
+    }
+    
+    .jumbotron h2 {
+        background-color: #970B67;
+        font-size: 20px;
+    }
+    
+    .jumbotron p {
+        font-size: 16px;
+    }
+
+    .my-pic {
+        width: 200px;
+        height: auto;
+        border-radius: 50%;
+        border: 5px solid rgba(34, 0, 40, 0.6);
+    }
+}
+
+@media (min-width: 300px) and (max-width: 500px) {
+    .jumbotron {
+        background-color: rgba(34, 0, 40, 0.6);
+        color: #FFFFFF;
+        border-radius: .3rem;
+    }
+    
+    .jumbotron h1 {
+        font-size: 30px;
+    }
+    
+    .jumbotron h2 {
+        background-color: #970B67;
+        font-size: 18px;
+    }
+    
+    .jumbotron p {
+        font-size: 14px;
+    }
+
+    .my-pic {
+        width: 200px;
+        height: auto;
+        border-radius: 50%;
+        border: 5px solid rgba(34, 0, 40, 0.6);
+    }
 }
