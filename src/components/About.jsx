@@ -6,12 +6,27 @@ import {
     Col,
     Image} from 'react-bootstrap'
 import my_pic from '../img/my_pic.jpg'
+import html from '../img/html.png'
+import css from '../img/css.png'
+import javascript from '../img/javascript.png'
+import bootstrap from '../img/bootstrap.png'
+import django from '../img/django.png'
+import firebase from '../img/firebase.png'
+import flask from '../img/flask.png'
+import heroku from '../img/heroku.png'
+import jquery from '../img/jquery.png'
+import material_ui from '../img/material_ui.png'
+import mongodb from '../img/mongodb.png'
+import my_sql from '../img/my_sql.png'
+import python from '../img/python.png'
+import reactjs from '../img/reactjs.png'
+import reduxpic from '../img/reduxpic.png'
 
 const About = () => {
     return (
         <Container fluid
             id="aboutSection">
-                <Container>
+                <Container className="pt-4 pb-4">
                    <Row>
                         <Col 
                             xs={12} 
@@ -40,19 +55,80 @@ const About = () => {
                                 become an expert in the area, especially in Front-End development.
                             </p>
                             <p className="font-roboto">
-                                These are some of the technologies I have learned over the years:
+                                Here are a few technologies I’ve been working with recently:
                             </p>
-                            technologies here .....
+                            <span>
+                                <Image 
+                                    src={html} 
+                                    alt="html"
+                                    className="skills-icons" fluid/>
+                                <Image 
+                                    src={css} 
+                                    alt="css"
+                                    className="skills-icons" fluid/>
+                                <Image 
+                                    src={javascript} 
+                                    alt="javascript"
+                                    className="skills-icons" fluid/>
+                                <Image 
+                                    src={jquery} 
+                                    alt="jquery"
+                                    className="skills-icons" fluid/>
+                                <Image 
+                                    src={python} 
+                                    alt="python"
+                                    className="skills-icons" fluid/>
+                                <Image 
+                                    src={flask} 
+                                    alt="flask"
+                                    className="skills-icons" fluid/>
+                                <Image 
+                                    src={django} 
+                                    alt="django"
+                                    className="skills-icons" fluid/>
+                                <Image 
+                                    src={reactjs} 
+                                    alt="react js"
+                                    className="skills-icons" fluid/>
+                                <Image 
+                                    src={reduxpic} 
+                                    alt="redux"
+                                    className="skills-icons" fluid/>
+                                <Image 
+                                    src={bootstrap} 
+                                    alt="bootstrap"
+                                    className="skills-icons" fluid/>
+                                <Image 
+                                    src={material_ui} 
+                                    alt="material ui"
+                                    className="skills-icons" fluid/>
+                                <Image 
+                                    src={my_sql} 
+                                    alt="mysql"
+                                    className="skills-icons" fluid/>
+                                <Image 
+                                    src={mongodb} 
+                                    alt="mongo db"
+                                    className="skills-icons" fluid/>
+                                <Image 
+                                    src={heroku} 
+                                    alt="heroku"
+                                    className="skills-icons" fluid/>
+                                <Image 
+                                    src={firebase} 
+                                    alt="firebase"
+                                    className="skills-icons" fluid/>
+                            </span>
                         </Col>
                         <Col 
                             xs={12} 
                             lg={5}
-                            className="mx-auto my-auto d-block"
+                            className="mx-auto my-auto"
                         >
                             <Image 
                                 src={my_pic}
                                 alt="My pic"
-                                className="about-me-pic m-2 shadow" 
+                                className="about-me-pic p-2 shadow d-block mx-auto" 
                                 fluid />
                         </Col>
                     </Row>
