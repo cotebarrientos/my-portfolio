@@ -61,6 +61,8 @@
 #my-social-media-icons a:focus,
 #my-social-media-icons a:active {
     color: #f0ad4e;
+    animation: pulse; 
+    animation-duration: 2s; 
 }
 
 /* Media Queries */

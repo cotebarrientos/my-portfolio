@@ -25,11 +25,23 @@
     border: 5px solid rgba(95, 86, 97, 0.6);
 }
 
+.about-me-pic:hover {
+    transition: .5s ease;
+    filter: sepia(100%);
+}
+
+/* filter: sepia(100%);} */
+
 .skills-icons {
     width: 30px;
     height: auto;
     margin: 4px;
     padding-bottom: 16px;
+}
+
+.skills-icons:hover {
+    animation: rubberBand; 
+    animation-duration: 2s; 
 }
 
 /* Media Queries */
