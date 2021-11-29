@@ -2,21 +2,6 @@
     min-height: 200px;
 }
 
-#aboutSection hr {
-    width: 60%;
-}
-
-#aboutSection h1 {
-    font-size: 45px;
-    letter-spacing: 2px;
-    color: #f0ad4e;
-}
-
-#aboutSection p {
-    text-align: justify;
-    font-size: 18px;
-}
-
 .about-me-pic {
     border-radius: 10%;
     width: 450px;
@@ -41,23 +26,4 @@
 .skills-icons:hover {
     animation: rubberBand; 
     animation-duration: 2s; 
-}
-
-/* Media Queries */
-
-@media screen and (max-width: 400px) {
-    #aboutSection hr {
-        width: 80%;
-    }
-    
-    #aboutSection h1 {
-        font-size: 40px;
-        letter-spacing: 2px;
-        color: #f0ad4e;
-    }
-    
-    #aboutSection p {
-        text-align: justify;
-        font-size: 16px;
-    }
 }

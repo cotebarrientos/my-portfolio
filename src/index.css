@@ -21,6 +21,21 @@ html,body {
   font-family: 'Exo 2', sans-serif;
 }
 
+.web-title {
+  font-size: 45px;
+  letter-spacing: 2px;
+  color: #f0ad4e;
+}
+
+.web-hr {
+  width: 80%;
+}
+
+.web-p {
+  text-align: justify;
+  font-size: 18px;
+}
+
 /* Website background */
 
 .site-background-color {
@@ -88,5 +103,22 @@ footer p {
     color: #FAFAFA;
     font-size: 20px;
     letter-spacing: 0.09em; 
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .web-title {
+    font-size: 34px;
+    letter-spacing: 2px;
+    color: #f0ad4e;
+  }
+
+  .web-hr {
+    width: 95%;
+  }
+
+  .web-p {
+    text-align: justify;
+    font-size: 16px;
   }
 }

@@ -39,7 +39,7 @@ const Navbar = () => {
                         <Link
                         className="nav-link"
                         activeClass="active"
-                        to="#" 
+                        to="portfolioSection" 
                         spy={true} 
                         smooth={true} 
                         duration={500}>My Portfolio</Link>
