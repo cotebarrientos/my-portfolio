@@ -49,6 +49,12 @@
 
 @media screen and (max-width: 450px) {
     #portfolioSection h3 {
-        font-size: 30px;
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    #portfolioSection h3 {
+        font-size: 23px;
     }
 }
