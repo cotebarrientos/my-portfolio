@@ -23,13 +23,13 @@ const Project2 = () => {
                     <h3 className="font-exo mt-3 text-center">
                             <Badge bg="dark shadow">Coronavirus report</Badge>
                     </h3>
-                    <p className="font-exo web-p mt-4">
+                    <p className="font-exo project-description mt-4">
                         This is the second milestone project I did during my studies at Code Institute.
                         This project consists of a web site which shows the coronavirus cases around the 
                         world through different charts. Unfortunately it's not working because the APIs 
                         used to query the information have been removed. 
                     </p>
-                    <p className="font-exo web-p mt-4">
+                    <p className="font-exo project-description mt-4">
                         Main technologies used:
                     </p>
                     <span>

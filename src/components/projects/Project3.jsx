@@ -21,8 +21,8 @@ const Project3 = () => {
     return (
         <>
             <Row className="mt-4 mb-4 info-background">
-                <Col lg={6} xs={12}
-                    className="my-auto">
+                <Col lg={6} 
+                    className="my-auto d-none d-lg-block d-xl-block d-xxl-bock">
                         <Image 
                             src={my_veggie_food_website}
                             alt="Milestone 3"
@@ -33,13 +33,13 @@ const Project3 = () => {
                     <h3 className="font-exo mt-3 text-center">
                             <Badge bg="dark shadow">My Veggie Food</Badge>
                     </h3>
-                    <p className="font-exo web-p mt-4">
+                    <p className="font-exo project-description mt-4">
                         This is the third milestone project I did during my studies at Code Institute. 
                         The project consists of a website where users can create an account and there 
                         they can write a vegetarian recipe and share it with the community.
                     </p>
                     <br />
-                    <p className="font-exo web-p mt-4">
+                    <p className="font-exo project-description mt-4">
                         Main technologies used:
                     </p>
                     <span>
@@ -96,6 +96,14 @@ const Project3 = () => {
                             <FiGlobe/>
                         </a>
                     </p>
+                    <Col xs={12}
+                    className="my-auto d-lg-none d-xl-none d-xxl-none">
+                        <Image 
+                            src={my_veggie_food_website}
+                            alt="Milestone 3"
+                            className="d-block mx-auto shadow web-image" 
+                            fluid/>
+                </Col>
                 </Col>
             </Row>
         </>

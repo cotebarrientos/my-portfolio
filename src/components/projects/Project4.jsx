@@ -28,13 +28,13 @@ const Project4 = () => {
                     <h3 className="font-exo mt-3 text-center">
                             <Badge bg="dark shadow">Your Argentine Shop</Badge>
                     </h3>
-                    <p className="font-exo web-p mt-4">
+                    <p className="font-exo project-description mt-4">
                     This was the fourth and last milestone project I did during my studies 
                     at Code Institute. This project consists of an eCommerce website with 
                     argentine products, both the design and everything related to the website 
                     was as representative as possible of Argentina's culture.
                     </p>
-                    <p className="font-exo web-p mt-4">
+                    <p className="font-exo project-description mt-4">
                         Main technologies used:
                     </p>
                     <span>

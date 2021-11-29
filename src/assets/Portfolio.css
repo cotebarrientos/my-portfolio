@@ -45,16 +45,37 @@
     animation-duration: 2s;
 }
 
+.project-description {
+    text-align: justify;
+    font-size: 19px;
+}
+
 /* Media Queries */
+
+@media screen and (max-width: 900px) {
+    .web-image {
+        width: 500px;
+        height: auto;
+    }
+}
 
 @media screen and (max-width: 450px) {
     #portfolioSection h3 {
         font-size: 28px;
+    }
+
+    .project-description {
+        text-align: justify;
+        font-size: 16px;
     }
 }
 
 @media screen and (max-width: 350px) {
     #portfolioSection h3 {
         font-size: 23px;
+    }
+    .project-description {
+        text-align: justify;
+        font-size: 14px;
     }
 }
