@@ -1,6 +1,7 @@
 import React from 'react'
 import '../assets/Portfolio.css'
 import { Container } from 'react-bootstrap'
+import Project1 from './projects/Project1'
 import Project2 from './projects/Project2'
 import Project3 from './projects/Project3'
 
@@ -21,6 +22,7 @@ const Portfolio = () => {
                     that I did as part of exercises for the specialization courses that I've taken 
                     at <strong>Udemy</strong>.
                     </p>
+                    <Project1 />
                     <Project2 />
                     <Project3 />
                 </Container>
