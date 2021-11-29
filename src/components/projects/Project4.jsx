@@ -24,6 +24,14 @@ const Project4 = () => {
     return (
         <>
             <Row className="mt-4 mb-4 info-background">
+                <Col xs={12}
+                    className="my-auto d-lg-none d-xl-none d-xxl-none">
+                        <Image 
+                            src={your_argentine_shop}
+                            alt="Milestone 4"
+                            className="d-block mx-auto shadow web-image" 
+                            fluid/>
+                </Col>
                 <Col lg={6} xs={12} className="my-auto">
                     <h3 className="font-exo mt-3 text-center">
                             <Badge bg="dark shadow">Your Argentine Shop</Badge>
@@ -104,8 +112,8 @@ const Project4 = () => {
                         </a>
                     </p>
                 </Col>
-                <Col lg={6} xs={12}
-                    className="my-auto">
+                <Col lg={6}
+                    className="my-auto d-none d-lg-block d-xl-block d-xxl-bock">
                         <Image 
                             src={your_argentine_shop}
                             alt="Milestone 4"

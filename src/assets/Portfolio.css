@@ -54,8 +54,12 @@
 
 @media screen and (max-width: 900px) {
     .web-image {
-        width: 500px;
+        width: 350px;
         height: auto;
+    }
+    .project-description {
+        text-align: justify;
+        font-size: 18px;
     }
 }
 

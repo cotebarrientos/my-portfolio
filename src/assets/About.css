@@ -27,3 +27,14 @@
     animation: rubberBand; 
     animation-duration: 2s; 
 }
+
+/* Media Queries */
+
+@media screen and (max-width: 900px) {
+    .about-me-pic {
+        border-radius: 10%;
+        width: 300px;
+        height: auto;
+        border: 5px solid rgba(95, 86, 97, 0.6);
+    }    
+}

@@ -22,7 +22,7 @@ const Project3 = () => {
         <>
             <Row className="mt-4 mb-4 info-background">
                 <Col lg={6} 
-                    className="my-auto d-none d-lg-block d-xl-block d-xxl-bock">
+                    className="my-auto">
                         <Image 
                             src={my_veggie_food_website}
                             alt="Milestone 3"
@@ -96,14 +96,6 @@ const Project3 = () => {
                             <FiGlobe/>
                         </a>
                     </p>
-                    <Col xs={12}
-                    className="my-auto d-lg-none d-xl-none d-xxl-none">
-                        <Image 
-                            src={my_veggie_food_website}
-                            alt="Milestone 3"
-                            className="d-block mx-auto shadow web-image" 
-                            fluid/>
-                </Col>
                 </Col>
             </Row>
         </>

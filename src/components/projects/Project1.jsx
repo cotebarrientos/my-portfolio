@@ -17,8 +17,8 @@ const Project1 = () => {
     return (
         <>
             <Row className="mt-4 mb-4 info-background">
-                <Col lg={6}
-                    className="my-auto d-none d-lg-block d-xl-block d-xxl-bock">
+                <Col lg={6} xs={12}
+                    className="my-auto">
                         <Image 
                             src={healhy_pet_website}
                             alt="Milestone 1"
@@ -72,14 +72,6 @@ const Project1 = () => {
                             <FiGlobe/>
                         </a>
                     </p>
-                </Col>
-                <Col xs={12}
-                    className="my-auto d-lg-none d-xl-none d-xxl-none">
-                        <Image 
-                            src={healhy_pet_website}
-                            alt="Milestone 1"
-                            className="d-block mx-auto shadow web-image" 
-                            fluid/>
                 </Col>
             </Row>
         </>
