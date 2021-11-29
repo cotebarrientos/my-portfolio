@@ -1,6 +1,7 @@
 import React from 'react'
 import '../assets/Portfolio.css'
 import { Container } from 'react-bootstrap'
+import Project2 from './projects/Project2'
 import Project3 from './projects/Project3'
 
 
@@ -10,7 +11,7 @@ const Portfolio = () => {
             id="portfolioSection"
             className="site-background-color">
                 <Container className="pt-4 pb-4 text-light">
-                    <h1 className="text-center font-outfit text-uppercase pt-5 web-title">
+                    <h1 className="text-center font-outfit text-uppercase pt-3 web-title">
                         My Portfolio
                     </h1>
                     <hr className="mx-auto web-hr"/>
@@ -20,6 +21,7 @@ const Portfolio = () => {
                     that I did as part of exercises for the specialization courses that I've taken 
                     at <strong>Udemy</strong>.
                     </p>
+                    <Project2 />
                     <Project3 />
                 </Container>
         </Container>

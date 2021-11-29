@@ -34,7 +34,7 @@ const About = () => {
                         lg={7} 
                         className="text-light"
                     >
-                        <h1 className="text-center font-outfit text-uppercase pt-5 web-title">
+                        <h1 className="text-center font-outfit text-uppercase pt-3 web-title">
                             About Me
                         </h1>
                         <hr className="mx-auto web-hr"/>
