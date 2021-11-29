@@ -29,7 +29,7 @@ const Project2 = () => {
                 </Col>
                 <Col lg={6} xs={12} className="my-auto">
                     <h3 className="font-exo mt-3 text-center">
-                            <Badge bg="dark shadow">Coronavirus report</Badge>
+                            <Badge bg="dark shadow">Coronavirus Report</Badge>
                     </h3>
                     <p className="font-exo project-description mt-4">
                         This is the second milestone project I did during my studies at Code Institute.

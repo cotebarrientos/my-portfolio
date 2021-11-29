@@ -6,6 +6,8 @@ import Project2 from './projects/Project2'
 import Project3 from './projects/Project3'
 import Project4 from './projects/Project4'
 import Project5 from './projects/Project5'
+import Project6 from './projects/Project6'
+import Project7 from './projects/Project7'
 
 
 const Portfolio = () => {
@@ -29,6 +31,8 @@ const Portfolio = () => {
                     <Project3 />
                     <Project4 />
                     <Project5 />
+                    <Project6 />
+                    <Project7 />
                 </Container>
         </Container>
     )
