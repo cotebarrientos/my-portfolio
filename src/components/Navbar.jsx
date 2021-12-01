@@ -48,7 +48,7 @@ const Navbar = () => {
                         <Link
                         className="nav-link"
                         activeClass="active"
-                        to="#" 
+                        to="contactSection" 
                         spy={true} 
                         smooth={true} 
                         duration={500}>Contact</Link>
