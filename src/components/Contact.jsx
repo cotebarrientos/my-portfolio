@@ -61,14 +61,14 @@ const Contact = () => {
                                 <Form.Control 
                                     type="text" 
                                     placeholder="Enter your name" 
-                                    lassName="mb-3"
+                                    className="mb-3"
                                     name="name"
-                                    maxlength="80" 
+                                    maxLength="80" 
                                     required/>
                             </Form.Group>
                         </Col>
                         <Col lg={8} md={10} xs={11} className="mx-auto my-auto">
-                            <Form.Group controlId="formGridEmail">
+                            <Form.Group controlId="formGridEmail" className="mt-3" >
                                 <Form.Label className="text-uppercase custom-label">Email:</Form.Label>
                                 <Form.Control 
                                     type="email" 
@@ -86,7 +86,7 @@ const Contact = () => {
                                     rows={5} 
                                     placeholder="Write your message"
                                     name="message"
-                                    maxlength="5000"
+                                    maxLength="5000"
                                     required/>
                             </Form.Group>
                         </Col>

@@ -4,6 +4,7 @@ import About from "./components/About";
 import Footer from "./components/Footer";
 import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
+import ScrollButton from "./components/ScrollButton";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Portfolio />
       <Contact />
       <Footer />
+      <ScrollButton />
     </div>
   );
 }
