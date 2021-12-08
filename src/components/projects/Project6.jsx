@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import '../../assets/Portfolio.css'
 import { 
     Row,
@@ -18,7 +18,7 @@ import firebase from '../../img/firebase.png'
 
 const Project6 = () => {
     return (
-        <>
+        <Fragment>
             <Row className="mt-4 mb-4 info-background">
                 <Col xs={12}
                     className="my-auto d-lg-none d-xl-none d-xxl-none">
@@ -101,7 +101,7 @@ const Project6 = () => {
                             fluid/>
                 </Col>
             </Row>
-        </>
+        </Fragment>
     )
 }
 
