@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import '../../assets/Portfolio.css'
 import { 
     Row,
@@ -18,7 +18,7 @@ import heroku from '../../img/heroku.png'
 
 const Project7 = () => {
     return (
-        <>
+        <Fragment>
             <Row className="mt-4 mb-4 info-background">
                 <Col lg={6} 
                     className="my-auto">
@@ -94,7 +94,7 @@ const Project7 = () => {
                     </p>
                 </Col>
             </Row>
-        </>
+        </Fragment>
     )
 }
 

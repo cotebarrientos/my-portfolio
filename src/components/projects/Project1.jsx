@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import '../../assets/Portfolio.css'
 import { 
     Row,
@@ -15,7 +15,7 @@ import bootstrap from '../../img/bootstrap.png'
 
 const Project1 = () => {
     return (
-        <>
+        <Fragment>
             <Row className="mt-4 mb-4 info-background">
                 <Col lg={6} xs={12}
                     className="my-auto">
@@ -74,7 +74,7 @@ const Project1 = () => {
                     </p>
                 </Col>
             </Row>
-        </>
+        </Fragment>
     )
 }
 
