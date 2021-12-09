@@ -2,6 +2,8 @@
 
 This repository is about the portfolio with all my projects done so far, these range from milestone projects that I did during my studies at **Code Institute**, to mini projects that I've been doing during the specialization courses taught by **Udemy**.
 
+**You can visit my portfolio website by clicking [here](https://cotebarrientos.github.io/my-portfolio/).**
+
 ## Technologies Used
 
 ### Technologies Used
@@ -100,4 +102,4 @@ I would like to thank the following people who encouraged me to continue special
 
 ---
 
-> Note: Website in process.
+> Note: My portfolio will be updated as new projects are developed, so be aware of the new updates.
