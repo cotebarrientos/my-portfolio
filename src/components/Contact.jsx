@@ -1,6 +1,8 @@
-import React, { useRef, useState } from 'react'
+import React, { useRef, useState, useEffect } from 'react'
 import '../assets/Contact.css'
 import emailjs from 'emailjs-com'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 import { IoIosSend } from 'react-icons/io'
 import { 
     Container,
@@ -20,6 +22,10 @@ const Message = () => {
 const Contact = () => {
     const form = useRef()
     const [successMessage, setSuccessMessage] = useState(false)
+
+    useEffect(() => {
+        Aos.init()
+    }, [])
 
     const sendEmail = (e) => {
         e.preventDefault();
@@ -47,14 +53,21 @@ const Contact = () => {
             id="contactSection" 
             className="contact-img-container"
         >
-            <Container className="contact-background text-light shadow">
-                <h2 className="text-center font-outfit text-uppercase mt-5">Contact</h2>
+            <Container className="contact-background text-light shadow" 
+                data-aos="fade-up"
+                data-aos-duration="3000">
+                <h2 className="text-center font-outfit text-uppercase mt-5"
+                    data-aos="fade-down">
+                    Contact
+                </h2>
                 <Form 
                     className="font-exo"
                     ref={form} 
                     onSubmit={sendEmail}>
                     <Row className="h-100">
-                    <hr className="web-hr mx-auto my-auto" />
+                    <hr className="web-hr mx-auto my-auto"
+                        data-aos="fade-up" 
+                        data-aos-anchor-placement="center-bottom" />
                         <Col lg={8} md={10} xs={11} className="mx-auto my-auto">
                             <Form.Group controlId="formGridName" className="mt-5">
                                 <Form.Label className="text-uppercase custom-label">Name:</Form.Label>

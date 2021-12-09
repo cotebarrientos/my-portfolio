@@ -1,5 +1,7 @@
-import React, { Fragment } from 'react'
+import React, { Fragment, useEffect } from 'react'
 import '../../assets/Portfolio.css'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 import { 
     Row,
     Col,
@@ -17,9 +19,14 @@ import storybookpic from '../../img/storybookpic.png'
 import heroku from '../../img/heroku.png'
 
 const Project7 = () => {
+
+    useEffect(() => {
+        Aos.init()
+    }, [])
+
     return (
         <Fragment>
-            <Row className="mt-4 mb-4 info-background">
+            <Row className="mt-4 mb-4 info-background" data-aos="fade-right">
                 <Col lg={6} 
                     className="my-auto">
                         <Image 

@@ -1,5 +1,7 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import '../assets/About.css'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 import { 
     Container,
     Row,
@@ -23,6 +25,11 @@ import reactjs from '../img/reactjs.png'
 import reduxpic from '../img/reduxpic.png'
 
 const About = () => {
+
+    useEffect(() => {
+        Aos.init()
+    }, [])
+
     return (
         <Container fluid
             id="aboutSection"
@@ -34,11 +41,15 @@ const About = () => {
                         lg={7} 
                         className="text-light"
                     >
-                        <h1 className="text-center font-outfit text-uppercase pt-3 web-title">
+                        <h1 className="text-center font-outfit text-uppercase pt-3 web-title"
+                            data-aos="fade-down">
                             About Me
                         </h1>
-                        <hr className="mx-auto web-hr"/>
-                        <p className="font-roboto pt-3 web-p">
+                        <hr className="mx-auto web-hr"
+                            data-aos="fade-up" 
+                            data-aos-anchor-placement="center-bottom"/>
+                        <p className="font-roboto pt-3 web-p"
+                            data-aos="fade-up-right">
                             Hello everyone! My name is Maria, and I'm a Junior Full Stack Software
                             Developer, with a strong emphasis on Font-End development and a graduate 
                             from <strong className="ms-1">Code Institute</strong>. I'm a very curious 
@@ -47,7 +58,8 @@ const About = () => {
                             <em className="ms-1 me-1">(I'm a beautician and dressmaker)</em> 
                             to the IT area.
                         </p>
-                        <p className="font-roboto pt-3 web-p">
+                        <p className="font-roboto pt-3 web-p"
+                            data-aos="fade-up-right">
                             Before studying at Code Institute, I had taken some specialization courses on  
                             <strong className="ms-1">Coursera</strong> about graphic design and Meteor JS, 
                             which were the beginning of my desire to change my career, and also motivated 
@@ -57,70 +69,86 @@ const About = () => {
                             which help me to improve every day everything I already know, hoping someday to 
                             become an expert in the area, especially in Front-End development.
                         </p>
-                        <p className="font-roboto web-p">
+                        <p className="font-roboto web-p"
+                            data-aos="fade-up-right">
                             Here are a few technologies I’ve been working with recently:
                         </p>
                         <span>
                             <Image 
                                 src={html} 
                                 alt="html"
-                                className="skills-icons" fluid/>
+                                className="skills-icons"
+                                data-aos="flip-up" fluid/>
                             <Image 
                                 src={css} 
                                 alt="css"
-                                className="skills-icons" fluid/>
+                                className="skills-icons" 
+                                data-aos="flip-up" fluid/>
                             <Image 
                                 src={javascript} 
                                 alt="javascript"
-                                className="skills-icons" fluid/>
+                                className="skills-icons" 
+                                data-aos="flip-up" fluid/>
                             <Image 
                                 src={jquery} 
                                 alt="jquery"
-                                className="skills-icons" fluid/>
+                                className="skills-icons" 
+                                data-aos="flip-up" fluid/>
                             <Image 
                                 src={python} 
                                 alt="python"
-                                className="skills-icons" fluid/>
+                                className="skills-icons"
+                                data-aos="flip-up" fluid/>
                             <Image 
                                 src={flask} 
                                 alt="flask"
-                                className="skills-icons" fluid/>
+                                className="skills-icons"
+                                data-aos="flip-up" fluid/>
                             <Image 
                                 src={django} 
                                 alt="django"
-                                className="skills-icons" fluid/>
+                                className="skills-icons"
+                                data-aos="flip-up" fluid/>
                             <Image 
                                 src={reactjs} 
                                 alt="react js"
-                                className="skills-icons" fluid/>
+                                className="skills-icons"
+                                data-aos="flip-up" fluid/>
                             <Image 
                                 src={reduxpic} 
                                 alt="redux"
-                                className="skills-icons" fluid/>
+                                className="skills-icons"
+                                data-aos="flip-up" fluid/>
                             <Image 
                                 src={bootstrap} 
                                 alt="bootstrap"
-                                className="skills-icons" fluid/>
+                                className="skills-icons"
+                                data-aos="flip-up" fluid/>
                             <Image 
                                 src={material_ui} 
                                 alt="material ui"
-                                className="skills-icons" fluid/>
+                                className="skills-icons"
+                                data-aos="flip-up" fluid/>
                             <Image 
                                 src={my_sql} 
                                 alt="mysql"
-                                className="skills-icons" fluid/>
+                                className="skills-icons"
+                                data-aos="flip-up" fluid/>
                             <Image 
                                 src={mongodb} 
                                 alt="mongo db"
-                                className="skills-icons" fluid/>
+                                className="skills-icons"
+                                data-aos="flip-up" fluid/>
                             <Image 
                                 src={heroku} 
                                 alt="heroku"
-                                className="skills-icons" fluid/>
+                                className="skills-icons"
+                                data-aos="flip-up" fluid/>
                             <Image 
                                 src={firebase} 
                                 alt="firebase"
-                                className="skills-icons" fluid/>
+                                className="skills-icons"
+                                data-aos="flip-up" fluid/>
                         </span>
                     </Col>
                     <Col 
@@ -131,7 +159,8 @@ const About = () => {
                         <Image 
                             src={my_pic}
                             alt="My pic"
-                            className="about-me-pic p-2 shadow d-block mx-auto" 
+                            className="about-me-pic p-2 shadow d-block mx-auto"
+                            data-aos="fade-up-left" 
                             fluid />
                     </Col>
                 </Row>

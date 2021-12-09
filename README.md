@@ -19,6 +19,7 @@ This repository is about the portfolio with all my projects done so far, these r
 - Bootstrap 5.1.3
 - React-bootstrap 2.0.2
 - Animate.css 4.1.1
+- AOS 2.3.4
 - Email JS 3.2.0
 - Google Fonts
 

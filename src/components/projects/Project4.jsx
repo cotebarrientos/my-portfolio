@@ -1,5 +1,7 @@
-import React, { Fragment } from 'react'
+import React, { Fragment, useEffect } from 'react'
 import '../../assets/Portfolio.css'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 import { 
     Row,
     Col,
@@ -21,9 +23,14 @@ import python from '../../img/python.png'
 import stripe from '../../img/stripe.png'
 
 const Project4 = () => {
+
+    useEffect(() => {
+        Aos.init()
+    }, [])
+
     return (
         <Fragment>
-            <Row className="mt-4 mb-4 info-background">
+            <Row className="mt-4 mb-4 info-background" data-aos="fade-left">
                 <Col xs={12}
                     className="my-auto d-lg-none d-xl-none d-xxl-none">
                         <Image 
