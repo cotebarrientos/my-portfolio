@@ -4,9 +4,28 @@ This repository is about the portfolio with all my projects done so far, these r
 
 **You can visit my portfolio website by clicking [here](https://cotebarrientos.github.io/my-portfolio/).**
 
+---
+
+## Content
+
+1. [**Technologies Used**](#technologies-used)
+    - [Languages](#languages)
+    - [Libraries](#libraries)
+    - [Tools Used](#tools-used)
+2. [**Deployment**](#deployment)
+    - [Clone Project from GitHub](#clone-project-from-github)
+    - [Local Deployment](#local-deployment)
+    - [Deployment using GitHub Pages](#deployment-using-github-pages)
+3. [**Credits**](#credits)
+    - [Code](#code)
+    - [Media](#media)
+    - [Acknowledgements](#acknowledgements)
+
+---
+
 ## Technologies Used
 
-### Technologies Used
+### Languages
 
 - HTML 5
 - CSS 3
