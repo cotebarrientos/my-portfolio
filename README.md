@@ -23,6 +23,7 @@ This repository is about the portfolio with all my projects done so far, these r
 - Animate.css 4.1.1
 - AOS 2.3.4
 - Email JS 3.2.0
+- gh-pages 3.2.3
 - Google Fonts
 
 ### Tools Used
@@ -51,7 +52,7 @@ This repository is about the portfolio with all my projects done so far, these r
 
 **6.** Type `git clone`, and then paste the clone URL.
 
-- git clone `https://github.com/USERNAME/REPOSITORY`
+    $ git clone https://github.com/username/repository-name
 
 **7.** Press 'Enter' to create your local clone.
 
@@ -71,6 +72,45 @@ This repository is about the portfolio with all my projects done so far, these r
 
 
 **4.** After that, this React project should be running on `http://localhost:3000/`
+
+### Deployment using GitHub Pages
+
+**1.** Install the `gh-pages` package using the following command:
+
+    $ npm install gh-pages — save-dev
+
+**2.** Add homepage property to `package.json` file as follow:
+
+    {
+        "homepage": "https://username.github.io/repository-name/",
+        "name": "project_name",
+        "version": "0.1.0",
+        "private": true,
+        "dependencies": {...},
+        "scripts": {...},
+        "eslintConfig": {...},
+        "browserslist": {...},
+        "devDependencies": {
+            "gh-pages": "^3.2.3"
+        }
+    }
+
+**3.** Write the *"predeploy"* and *"deploy"* scripts under `package.json` file as follow:
+
+    "scripts": {
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build",
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject"
+    }
+
+**4.** Save `package.json`, and run the following command to deploy it to GitHub Pages
+
+    $ npm run deploy
+
+**5.** Now if you switch to your GitHub repository and then Settings -> GitHub pages section you will be able to see the URL that you assigned to the homepage property in your `package.json`.
 
 ## Credits
 
