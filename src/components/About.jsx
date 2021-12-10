@@ -160,7 +160,8 @@ const About = () => {
                             src={my_pic}
                             alt="My pic"
                             className="about-me-pic p-2 shadow d-block mx-auto"
-                            data-aos="fade-up-left" 
+                            data-aos="fade-up"
+                            data-aos-duration="1000" 
                             fluid />
                     </Col>
                 </Row>

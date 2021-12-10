@@ -16,7 +16,7 @@ const Navbar = () => {
             </Appbar.Brand>
             <Appbar.Toggle aria-controls="responsive-navbar-nav" />
             <Appbar.Collapse id="responsive-navbar-nav">
-                <ul className="navbar-nav ms-auto text-uppercase font-outfit">
+                <ul className="navbar-nav ms-auto text-uppercase font-outfit mt-1 mb-1">
                     <li className="nav-item ps-2 pe-2">
                         <Link
                         className="nav-link"
