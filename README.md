@@ -1,8 +1,11 @@
 # My Portfolio Website
 
+![Portfolio website](https://github.com/cotebarrientos/my-portfolio/blob/main/src/img/responsive_img_my_portfolio.jpg?raw=true)
+
 This repository is about the portfolio with all my projects done so far, these range from milestone projects that I did during my studies at **Code Institute**, to mini projects that I've been doing during the specialization courses taught by **Udemy**.
 
 **You can visit my portfolio website by clicking [here](https://cotebarrientos.github.io/my-portfolio/).**
+
 
 ---
 
