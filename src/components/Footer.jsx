@@ -33,7 +33,7 @@ const Footer = () => {
                     <Col lg={12} 
                         className="text-light text-center">
                         <p className="font-exo">
-                            © 2021-2022, Designed and Built by Maria Barrientos
+                            © 2022, Designed and Built by Maria Barrientos
                         </p>
                     </Col>
                 </Row>
