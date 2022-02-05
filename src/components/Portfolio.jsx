@@ -34,10 +34,10 @@ const Portfolio = () => {
                     <p className="font-roboto pt-3 mb-5 web-p" 
                         data-aos="fade-up" 
                         data-aos-anchor-placement="center-bottom">
-                    In this section you will find the main projects that I've done this last time, 
-                    from Milestone projects for <strong>Code Institute</strong>, to mini projects 
-                    that I did as part of exercises for the specialization courses that I've taken 
-                    at <strong>Udemy</strong>.
+
+                    In this section you will find the main projects that I've done from Milestone 
+                    projects for <strong>Code Institute</strong>, to mini projects that I did as part 
+                    of exercises for the specialization courses that I've taken at <strong>Udemy</strong>.
                     </p>
                     <Project1 />
                     <Project2 />

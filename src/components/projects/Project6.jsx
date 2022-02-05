@@ -40,10 +40,10 @@ const Project6 = () => {
                             <Badge bg="dark shadow">MyPokeApp</Badge>
                     </h3>
                     <p className="font-exo project-description mt-4">
-                        This mini project was one of many exercises I did while I was studying 
-                        React and Redux on Udemy. The app queries directly to the Pokemon API, 
-                        and also the user can log in with a google account thanks to Firebase. 
-                        Personally this was the exercise I enjoyed the most.
+                    This mini project was one of many exercises I did while I was studying React and 
+                    Redux on Udemy. The app queries directly to the Pokemon API, and the user can log 
+                    in with a google account thanks to Firebase. This was the exercise that I 
+                    enjoyed the most.
                     </p>
                     <p className="font-exo project-description mt-4">
                         Main technologies used:

@@ -50,28 +50,28 @@ const About = () => {
                             data-aos-anchor-placement="center-bottom"/>
                         <p className="font-roboto pt-3 web-p"
                             data-aos="fade-up-right">
-                            Hello everyone! My name is Maria, and I'm a Junior Full Stack Software
-                            Developer, with a strong emphasis on Font-End development and a graduate 
-                            from <strong className="ms-1">Code Institute</strong>. I'm a very curious 
-                            person, who likes challenges and always wants to learn new skills, and that's 
-                            one of the reasons why I decided to switch from cosmetics and design 
-                            <em className="ms-1 me-1">(I'm a beautician and dressmaker)</em> 
-                            to the IT area.
+
+                            Hello everyone! My name is Maria, and I'm a Junior Full Stack Software Developer, 
+                            with a strong emphasis on Front-End development and a <strong className="ms-1">Code Institute</strong> alumnus. 
+                            I'm a very curious person, who loves a challenge and always wants to learn new skills, and that's one of 
+                            the reasons why I decided to switch from cosmetics and design into the IT area 
+                            <em className="ms-1 me-1">(I was previously a beautician/dressmaker).</em> 
                         </p>
                         <p className="font-roboto pt-3 web-p"
                             data-aos="fade-up-right">
-                            Before studying at Code Institute, I had taken some specialization courses on  
-                            <strong className="ms-1">Coursera</strong> about graphic design and Meteor JS, 
-                            which were the beginning of my desire to change my career, and also motivated 
-                            me to keep learning by myself and to keep improving my programming skills. 
-                            Currently I continue learning by myself, knowing more about this wonderful world 
-                            of computer science, and I am also very active doing mini projects and exercises, 
-                            which help me to improve every day everything I already know, hoping someday to 
-                            become an expert in the area, especially in Front-End development.
+
+                            Before studying at Code Institute, I had taken some specialization courses on 
+                            <strong className="ms-1">Coursera </strong> about graphic design and Meteor JS, 
+                            which inspired my desire to change my career. This also motivated me to keep 
+                            learning by myself and to keep improving my programming skills. Currently, 
+                            I am continuing to learn by myself, diving deeper into the wonderful world 
+                            of computer science and I am actively doing mini projects and exercises, 
+                            which help me to improve every day. I am hoping someday to become an expert 
+                            in the area, especially in Front-End development.
                         </p>
                         <p className="font-roboto web-p"
                             data-aos="fade-up-right">
-                            Here are a few technologies I’ve been working with recently:
+                            Here are a few technologies I've been working with recently:
                         </p>
                         <span>
                             <Image 
