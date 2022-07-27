@@ -23,7 +23,6 @@ const Footer = () => {
                             </a>
                             <a 
                                 href="https://www.linkedin.com/in/mjbarrientosv/"
-                                className="" 
                                 target="_blank" 
                                 rel="noopener noreferrer"
                             >

@@ -10,6 +10,7 @@ import Project4 from './projects/Project4'
 import Project5 from './projects/Project5'
 import Project6 from './projects/Project6'
 import Project7 from './projects/Project7'
+import Project8 from './projects/Project8'
 
 
 const Portfolio = () => {
@@ -35,10 +36,13 @@ const Portfolio = () => {
                         data-aos="fade-up" 
                         data-aos-anchor-placement="center-bottom">
 
-                    In this section you will find the main projects that I've done from Milestone 
-                    projects for <strong>Code Institute</strong>, to mini projects that I did as part 
-                    of exercises for the specialization courses that I've taken at <strong>Udemy</strong>.
+                    In this section you will find the main projects I've done from Milestone projects 
+                    for <strong>Code Institute</strong>, mini-projects I've done as part of exercises for 
+                    the specialization courses I've taken at <strong>Udemy</strong>, to assignments completed 
+                    for <em>the frontend development industry training course</em> imparted by <strong>Brainnest</strong>.
+
                     </p>
+
                     <Project1 />
                     <Project2 />
                     <Project3 />
@@ -46,6 +50,7 @@ const Portfolio = () => {
                     <Project5 />
                     <Project6 />
                     <Project7 />
+                    <Project8 />
                 </Container>
         </Container>
     )
