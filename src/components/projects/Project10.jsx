@@ -9,16 +9,13 @@ import {
     Badge} from 'react-bootstrap'
 import { GrGithub } from 'react-icons/gr'
 import { FiGlobe } from 'react-icons/fi'
-import MyPokeApp from '../../img/MyPokeApp.png'
+import MyCalculator from '../../img/my-calculator.png'
 import html from '../../img/html.png'
 import css from '../../img/css.png'
 import javascript from '../../img/javascript.png'
-import bootstrap from '../../img/bootstrap.png'
-import reactjs from '../../img/reactjs.png'
-import reduxpic from '../../img/reduxpic.png'
-import firebase from '../../img/firebase.png'
 
-const Project6 = () => {
+
+const Project10 = () => {
 
     useEffect(() => {
         Aos.init()
@@ -30,20 +27,19 @@ const Project6 = () => {
                 <Col xs={12}
                     className="my-auto d-lg-none d-xl-none d-xxl-none">
                         <Image 
-                            src={MyPokeApp}
-                            alt="MyPokeApp"
+                            src={MyCalculator}
+                            alt="My Calculator App: A simple calculator"
                             className="d-block mx-auto shadow web-image" 
                             fluid/>
                 </Col>
                 <Col lg={6} xs={12} className="my-auto">
                     <h3 className="font-exo mt-3 text-center">
-                            <Badge bg="dark shadow">MyPokeApp</Badge>
+                            <Badge bg="dark shadow">My Calculator</Badge>
                     </h3>
                     <p className="font-exo project-description mt-4">
-                        This mini project was one of many exercises I did while I was studying React and 
-                        Redux on Udemy. The app queries directly to the Pokemon API, and the user can log 
-                        in with a google account thanks to Firebase. This was the exercise that I 
-                        enjoyed the most.
+                        This was my final assignment for the Brainnest specialization course. The 
+                        main purpose of this project was to create a calculator capable of performing 
+                        simple calculations.
                     </p>
                     <p className="font-exo project-description mt-4">
                         Main technologies used:
@@ -61,38 +57,22 @@ const Project6 = () => {
                             src={javascript} 
                             alt="javascript"
                             className="tech-used" fluid/>
-                        <Image 
-                            src={reactjs} 
-                            alt="react"
-                            className="tech-used" fluid/>
-                        <Image 
-                            src={reduxpic} 
-                            alt="redux"
-                            className="tech-used" fluid/>
-                        <Image 
-                            src={bootstrap} 
-                            alt="bootstrap"
-                            className="tech-used" fluid/>
-                        <Image 
-                            src={firebase} 
-                            alt="firebase"
-                            className="tech-used" fluid/>
                     </span>
                     <p className="mt-3 text-end">
                         <a 
-                            href="https://github.com/cotebarrientos/udemy-redux-exercise"
+                            href="https://github.com/cotebarrientos/my-calculator"
                             target="_blank" 
                             rel="noopener noreferrer"
-                            title="MyPokeApp repository"
+                            title="My calculator repository"
                             className="link-icons"
                         >
                             <GrGithub/>
                         </a>
                         <a
-                            href="https://my-poke-app.web.app/login"
+                            href="https://cotebarrientos.github.io/my-calculator/"
                             target="_blank" 
                             rel="noopener noreferrer"
-                            title="MyPokeApp website"
+                            title="My calculator website"
                             className="link-icons"
                         >
                             <FiGlobe/>
@@ -102,8 +82,8 @@ const Project6 = () => {
                 <Col lg={6}
                     className="my-auto d-none d-lg-block d-xl-block d-xxl-bock">
                         <Image 
-                            src={MyPokeApp}
-                            alt="MyPokeApp"
+                            src={MyCalculator}
+                            alt="My Calculator App: A simple calculator"
                             className="d-block mx-auto shadow web-image" 
                             fluid/>
                 </Col>
@@ -112,4 +92,4 @@ const Project6 = () => {
     )
 }
 
-export default Project6
+export default Project10

@@ -13,6 +13,7 @@ import FitnessHeroes from '../../img/fitness-heroes.png'
 import html from '../../img/html.png'
 import css from '../../img/css.png'
 
+
 const Project8 = () => {
 
     useEffect(() => {
