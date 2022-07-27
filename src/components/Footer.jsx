@@ -6,6 +6,10 @@ import {
     Col} from 'react-bootstrap'
 
 const Footer = () => {
+
+    const currentYear = (new Date().getFullYear())
+    const yearTxt = currentYear === 2021 ? "2021" : "2021 - " + currentYear
+
     return (
         <Container fluid
             className="background-color">
@@ -32,7 +36,7 @@ const Footer = () => {
                     <Col lg={12} 
                         className="text-light text-center">
                         <p className="font-exo">
-                            © 2022, Designed and Built by Maria Barrientos
+                            © {yearTxt}, Designed and Built by Maria Barrientos
                         </p>
                     </Col>
                 </Row>
