@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.36b86c05.css",
-    "main.js": "/my-portfolio/static/js/main.eb171f6d.js",
+    "main.js": "/my-portfolio/static/js/main.13b2a4cb.js",
     "static/media/github_pic.jpg": "/my-portfolio/static/media/github_pic.5460faf61ab08e6dccf0.jpg",
     "static/media/my_veggie_food_website.png": "/my-portfolio/static/media/my_veggie_food_website.f26d0bea2735cf8b8157.png",
     "static/media/rock-paper-scissors.png": "/my-portfolio/static/media/rock-paper-scissors.4fe808a8d16fc928f508.png",
@@ -34,10 +34,10 @@
     "static/media/django.png": "/my-portfolio/static/media/django.c050408a8e8d47b65a3d.png",
     "index.html": "/my-portfolio/index.html",
     "main.36b86c05.css.map": "/my-portfolio/static/css/main.36b86c05.css.map",
-    "main.eb171f6d.js.map": "/my-portfolio/static/js/main.eb171f6d.js.map"
+    "main.13b2a4cb.js.map": "/my-portfolio/static/js/main.13b2a4cb.js.map"
   },
   "entrypoints": [
     "static/css/main.36b86c05.css",
-    "static/js/main.eb171f6d.js"
+    "static/js/main.13b2a4cb.js"
   ]
 }
