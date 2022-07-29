@@ -26,7 +26,7 @@ const Footer = () => {
                                 <GrGithub className="mb-3 mt-4 me-2 ms-1 circle-icon"/>
                             </a>
                             <a 
-                                href="https://www.linkedin.com/in/mjbarrientosv/"
+                                href="https://www.linkedin.com/in/mjbarrientosv/?locale=en_US"
                                 target="_blank" 
                                 rel="noopener noreferrer"
                             >

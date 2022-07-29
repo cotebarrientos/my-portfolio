@@ -62,7 +62,7 @@ const Home = () => {
                                 <GrGithub className="mb-4 me-2 ms-1"/>
                             </a>
                             <a 
-                                href="https://www.linkedin.com/in/mjbarrientosv/" 
+                                href="https://www.linkedin.com/in/mjbarrientosv/?locale=en_US" 
                                 target="_blank" 
                                 rel="noopener noreferrer"
                             >
