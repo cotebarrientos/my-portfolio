@@ -49,6 +49,11 @@
     border: 5px solid rgba(34, 0, 40, 0.6);
 }
 
+.hello-pic {
+    width: 30px;
+    height: auto;
+}
+
 /* Social Media Icons */
 
 #my-social-media-icons {
@@ -63,8 +68,8 @@
 #my-social-media-icons a:focus,
 #my-social-media-icons a:active {
     color: #f0ad4e;
-    animation: pulse; 
-    animation-duration: 2s; 
+    animation: pulse;
+    animation-duration: 2s;
 }
 
 /* Media Queries */
@@ -75,16 +80,16 @@
         color: #FFFFFF;
         border-radius: .3rem;
     }
-    
+
     .jumbotron h1 {
         font-size: 35px;
     }
-    
+
     .jumbotron h2 {
         background-color: #970B67;
         font-size: 20px;
     }
-    
+
     .jumbotron p {
         font-size: 16px;
     }
@@ -103,16 +108,16 @@
         color: #FFFFFF;
         border-radius: .3rem;
     }
-    
+
     .jumbotron h1 {
         font-size: 30px;
     }
-    
+
     .jumbotron h2 {
         background-color: #970B67;
         font-size: 18px;
     }
-    
+
     .jumbotron p {
         font-size: 14px;
     }

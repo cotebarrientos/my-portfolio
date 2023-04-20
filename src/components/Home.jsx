@@ -10,6 +10,7 @@ import {
 } from 'react-bootstrap'
 import { GrGithub, GrLinkedin } from "react-icons/gr"
 import github_pic from '../img/github_pic.jpg'
+import hello_world_pic from '../img/hello_world.gif'
 
 const Home = () => {
 
@@ -37,7 +38,14 @@ const Home = () => {
                     className="mx-auto my-auto">
                     <h2 className="text-center font-exo badge rounded-pill"
                         data-aos="fade-right">
-                        Hello! My name is
+                        <span>
+                            <Image
+                                src={hello_world_pic}
+                                alt="My GitHub pic"
+                                className="hello-pic"
+                                data-aos="flip-left"
+                                fluid
+                            /></span> Hello! My name is
                     </h2>
                     <h1 className="text-center text-uppercase font-exo"
                         data-aos="fade-left">
