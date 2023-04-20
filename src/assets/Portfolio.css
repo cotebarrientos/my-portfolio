@@ -41,7 +41,7 @@
 }
 
 .web-image:hover {
-    animation: pulse; 
+    animation: pulse;
     animation-duration: 2s;
 }
 
@@ -52,11 +52,18 @@
 
 /* Media Queries */
 
+@media (min-width: 992px) {
+    .position-text {
+        text-align: center;
+    }
+}
+
 @media screen and (max-width: 900px) {
     .web-image {
         width: 350px;
         height: auto;
     }
+
     .project-description {
         text-align: justify;
         font-size: 18px;
@@ -78,6 +85,7 @@
     #portfolioSection h3 {
         font-size: 23px;
     }
+
     .project-description {
         text-align: justify;
         font-size: 14px;
