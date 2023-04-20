@@ -13,6 +13,7 @@ import Project7 from './projects/Project7'
 import Project8 from './projects/Project8'
 import Project9 from './projects/Project9'
 import Project10 from './projects/Project10'
+import ImportantNote from './projects/ImportantNote'
 
 
 const Portfolio = () => {
@@ -42,6 +43,8 @@ const Portfolio = () => {
                     professional web developer.
 
                 </p>
+
+                <ImportantNote />
 
                 <Project1 />
                 <Project2 />
