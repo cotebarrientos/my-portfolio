@@ -14,6 +14,7 @@ import Project8 from './projects/Project8'
 import Project9 from './projects/Project9'
 import Project10 from './projects/Project10'
 import ImportantNote from './projects/ImportantNote'
+import ElTokio from './projects/ElTokio'
 
 
 const Portfolio = () => {
@@ -45,6 +46,8 @@ const Portfolio = () => {
                 </p>
 
                 <ImportantNote />
+
+                <ElTokio />
 
                 <Project1 />
                 <Project2 />

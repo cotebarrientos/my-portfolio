@@ -28,6 +28,9 @@ import figmapic from '../img/figma.png'
 import sasspic from '../img/sass.png'
 import phppic from '../img/php.png'
 import wordpresspic from '../img/wordpress.png'
+import flywheelpic from '../img/Flywheel.png'
+import photoshoppic from '../img/photoshop.png'
+import illustratorpic from '../img/illustrator.png'
 
 const About = () => {
 
@@ -170,8 +173,23 @@ const About = () => {
                                 className="skills-icons"
                                 data-aos="flip-up" fluid />
                             <Image
+                                src={flywheelpic}
+                                alt="flywheel"
+                                className="skills-icons"
+                                data-aos="flip-up" fluid />
+                            <Image
                                 src={figmapic}
                                 alt="figma"
+                                className="skills-icons"
+                                data-aos="flip-up" fluid />
+                            <Image
+                                src={photoshoppic}
+                                alt="Adobe Photoshop"
+                                className="skills-icons"
+                                data-aos="flip-up" fluid />
+                            <Image
+                                src={illustratorpic}
+                                alt="Adobe Illustrator"
                                 className="skills-icons"
                                 data-aos="flip-up" fluid />
                         </span>
